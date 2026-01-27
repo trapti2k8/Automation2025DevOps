@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-21T12:52:53 CET" name="Default suite" finished-at="2026-01-21T12:53:03 CET" duration-ms="10369">
+    <groups>
+    </groups>
+    <test started-at="2026-01-21T12:52:53 CET" name="Default test" finished-at="2026-01-21T12:53:03 CET" duration-ms="10369">
+      <class name="com.CRM.TestCase.LoginPageTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.CRM.TestCase.LoginPageTestCase@702657cc]" started-at="2026-01-21T12:52:53 CET" name="setup" finished-at="2026-01-21T12:53:00 CET" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.CRM.TestCase.LoginPageTestCase@702657cc]" started-at="2026-01-21T12:53:00 CET" name="pageSetup" finished-at="2026-01-21T12:53:02 CET" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="validateLogin()[pri:0, instance:com.CRM.TestCase.LoginPageTestCase@702657cc]" started-at="2026-01-21T12:53:02 CET" name="validateLogin" finished-at="2026-01-21T12:53:03 CET" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- com.CRM.TestCase.LoginPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
