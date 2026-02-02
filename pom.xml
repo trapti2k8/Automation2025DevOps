@@ -12,7 +12,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>17</java.version>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
@@ -30,7 +30,12 @@
     <version>7.11.0</version>
     <scope>test</scope>
 </dependency>
-  
+
+  	<dependency>
+  		<groupId>MyMavenProject</groupId>
+  		<artifactId>MyMavenProject</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <build>

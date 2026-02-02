@@ -4,6 +4,8 @@ package com.CRM.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.CRM.Utility.Utility;
+
 public class HomePage {
 
 	// encapsulation=privatedata+public method
@@ -30,8 +32,10 @@ public class HomePage {
      }
 
 	public String getStatusOfLink() 
-	{
+	{    
+		Utility.getSceenshot(driver);
 		driver.findElement(link).click();
+		Utility.getSceenshot(driver);
 		return driver.getCurrentUrl();
 	}
 
