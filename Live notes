@@ -38,3 +38,5 @@ To test project
 Installation of required files+test
 
 https://maven.apache.org/guides/index.html
+
+Maven Repository added in settings.xml
