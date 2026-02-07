@@ -1,0 +1,42 @@
+
+Maven
+===========
+maven is build/project management tool
+
+maven Project Execution
+=================
+1.using pom.xml
+2.using CLI
+===========
+download Maven on local system and extract it
+https://maven.apache.org/download.cgi
+
+3.Using jenkins
+
+setup
+=======
+1 Plugins
+=========
+1.compiler plugin
+2.Surefile plugin
+
+
+2.Goals to execute maven
+=============
+Goals(action)
+
+1.clean
+=========
+To delete reports from target folder
+
+2.test
+=========
+To test project
+
+3.Install
+===========
+Installation of required files+test
+
+https://maven.apache.org/guides/index.html
+
+Maven Repository added in settings.xml
